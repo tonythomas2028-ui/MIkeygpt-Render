@@ -1,0 +1,62 @@
+/* Theme Toggle Component Styling */
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  min-height: auto;
+  font-size: inherit;
+  line-height: normal;
+}
+
+.theme-toggle:hover {
+  opacity: 0.8;
+}
+
+.theme-toggle:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.theme-toggle-label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.theme-toggle-track {
+  position: relative;
+  width: 34px;
+  height: 20px;
+  background-color: #d1d5db;
+  border-radius: 10px;
+  transition: background-color 150ms ease-in-out;
+  flex-shrink: 0;
+}
+
+.theme-toggle-track.dark {
+  background-color: #4b5563;
+}
+
+.theme-toggle-thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: left 150ms ease-in-out;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.theme-toggle-track.dark .theme-toggle-thumb {
+  left: 17px;
+}

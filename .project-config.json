@@ -1,0 +1,46 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://3WchXcD8nGVBiXn.root:m0YLidgu2X0y0V07oIIb@gateway02.us-east-1.prod.aws.tidbcloud.com:4000/f5KayxuJc7bTGwYhDbPruU?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://3WchXcD8nGVBiXn.root:m0YLidgu2X0y0V07oIIb@gateway02.us-east-1.prod.aws.tidbcloud.com:4000/f5KayxuJc7bTGwYhDbPruU?ssl={\"rejectUnauthorized\":true}",
+    "MANUS_WEBDEV_PROJECT_ID": "f5KayxuJc7bTGwYhDbPruU"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/f5KayxuJc7bTGwYhDbPruU.git",
+    "expiration": "2026-08-31T15:55:24.024Z",
+    "token": "art_v2_x_3c3abe9df5d7e61696d4bc95178937c87301ea3c?expires=1788191724",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "mikeygpt-site",
+  "path": "/home/ubuntu/mikeygpt-site",
+  "port": 3000,
+  "secrets": {
+    "ADMIN_ACCESS_PASSWORD": "miikey!224",
+    "ADMIN_OWNER_EMAIL": "tonythomas1334@gmail.com",
+    "BUILT_IN_FORGE_API_KEY": "QGqAEo3pGaGqVtRWFMKZvc",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "fcPE7jv5PikGHPZGUS7tVF",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "kikikikiki kikikikikii",
+    "OWNER_OPEN_ID": "74FbVMUebCsmSgsxU9qr33",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "b6572b33-7619-4d86-9cd5-109152381732",
+    "VITE_APP_ID": "f5KayxuJc7bTGwYhDbPruU",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663929031625/RmHPuNgXXMEulyPs.png",
+    "VITE_APP_TITLE": "MikeyGPT",
+    "VITE_FRONTEND_FORGE_API_KEY": "TNe54jgnrCHq9Zsh5pELDm",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
